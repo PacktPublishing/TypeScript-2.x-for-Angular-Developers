@@ -1,0 +1,13 @@
+:host {
+  display: block
+}
+
+:host:hover {
+  background:#e1e1e1;
+  cursor: pointer;
+}
+
+/* h3, p {
+  margin: 0;
+  mar
+} */

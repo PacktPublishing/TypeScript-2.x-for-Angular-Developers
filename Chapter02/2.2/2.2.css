@@ -1,0 +1,27 @@
+body {
+    background: whitesmoke;
+}
+.container {
+    padding-top: 50px;
+}
+
+.form-control {
+    border-radius: 0
+}
+
+.main {
+    display: flex;
+}
+
+.button {
+    background: #3fb1de;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    transition: background 140ms ease-in-out;
+}
+
+.button:hover {
+    background: #23a0d1
+}

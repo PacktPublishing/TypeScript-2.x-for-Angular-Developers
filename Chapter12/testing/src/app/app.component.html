@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <app-image></app-image>
+  <p>Random Image is shown above each time you reload </p>
+
+  <!-- Sample Form for testing with Augury -->
+  <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <div>
+      <label for="quote">Random Quote</label>
+      <input type="text" id="quote" name="quote" placeholder="Short Quote"  required ngModel>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<ul>
+</ul>
+

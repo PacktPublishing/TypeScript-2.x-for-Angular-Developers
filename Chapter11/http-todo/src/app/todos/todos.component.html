@@ -1,0 +1,12 @@
+<form (submit) = "addTodos($event)">
+  <input type="text" class="form-control"  placeholder="action" [(ngModel)] ="action" name="action">
+  <button class="btn btn-primary" type="submit"><h4>Submit</h4></button>
+</form>
+
+<div class="card pos" style="width: 20rem;" *ngFor="let todo of todos">
+  <div class="card-body">
+    <h4 class="card-title" (click)="updateStatus(todo)" [ngStyle]="{ 'text-decoration': todo.isDone ? 'line-through' : ''}">{{todo.action}}</h4>
+    <p class="card-text">{{todo.isDone}}</p>
+    <button (click) ="deleteTodo(todo._id)" class="btn btn-danger">Delete</button>
+  </div>
+</div>

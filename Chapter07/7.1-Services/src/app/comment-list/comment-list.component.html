@@ -1,0 +1,13 @@
+<button class="btn btn-primary" 
+ (click)="showPrompt()"
+>Add Comment</button>
+<div class="list-group" style="margin-top: 5px">
+  <a href="#" class="list-group-item" 
+    (dblclick)="removeComment(comment)" 
+    *ngFor="let comment of comments"
+    (click)="showComment(comment)"
+    >
+    <h4 class="list-group-item-heading">{{comment.author}}</h4>
+    <p class="list-group-item-text">{{comment.content}}</p>
+  </a>
+</div>

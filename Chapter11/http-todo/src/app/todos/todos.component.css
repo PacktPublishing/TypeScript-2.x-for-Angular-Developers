@@ -1,0 +1,8 @@
+.isDone{
+    text-decoration: line-through;
+}
+
+.pos{
+    margin-left: 40%;
+    margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+<div>
+  <h2>Comments</h2>
+  <app-comment-list [comments]="comments" (onShowComment)="onShowComment($event)"></app-comment-list>
+  <h2>Counter</h2>
+  <app-counter></app-counter>
+  <button (click)="counterComponent.increment()">++</button>
+  <button (click)="counterComponent.decrement()">--</button>
+</div>

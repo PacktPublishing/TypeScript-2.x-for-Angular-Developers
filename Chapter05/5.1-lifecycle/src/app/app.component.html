@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <div style="text-align:center">
+    <h1>
+      {{title}}!!
+    </h1>
+    <h4 *ngIf="loading">Please wait...</h4>
+  </div>
+  <ul>
+    <li *ngFor="let item of items">{{item}}</li>
+  </ul>
+  <app-tab></app-tab>
+</div>
+

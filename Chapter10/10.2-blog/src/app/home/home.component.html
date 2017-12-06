@@ -1,0 +1,8 @@
+<div class="cards">
+  <div class="card" *ngFor="let post of posts" (click)="showPost(post.id)">
+    <div class="card-content">
+      <img src="{{post.imageUrl}}" alt="{{post.author}}">
+      <h4>{{post.author}}</h4>
+    </div>
+  </div>
+</div>

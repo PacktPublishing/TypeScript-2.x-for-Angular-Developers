@@ -1,0 +1,31 @@
+div.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+div.container {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+button {
+    background: #6896F2;
+    border: 1px solid #689CEB;
+    color: #fff;
+    padding: 15px 20px;
+    transition: opacity 100ms ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.text-center {
+    font-size: 35px;
+    color: #3F292B;
+}
+
+body, html {
+    background: whitesmoke;
+}

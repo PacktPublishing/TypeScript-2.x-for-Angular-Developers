@@ -1,0 +1,9 @@
+ul {
+  display: flex;
+  justify-content: space-between
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}

@@ -14,15 +14,15 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 3) Install dependencies
 
-    ```    npm install```
+    ```npm install```
 
 4) Install Angular CLI
 
-```    npm install -g angular-cli```
+    ```npm install -g angular-cli```
 
 5) Start App
 
-```    ng serve```
+    ```ng serve```
 
 The code will look like the following:
 ```

@@ -10,19 +10,19 @@ All of the code is organized into folders. Each folder starts with a number foll
 1) Clone the repository
 2) cd into each example fordler. Eg:
 
-```       cd Chapter11/http-todo```
+```    cd Chapter11/http-todo```
 
 3) Install dependencies
 
-```       npm install```
+```    npm install```
 
 4) Install Angular CLI
 
-```       npm install -g angular-cli```
+```    npm install -g angular-cli```
 
 5) Start App
 
-```       ng serve```
+```    ng serve```
 
 The code will look like the following:
 ```
